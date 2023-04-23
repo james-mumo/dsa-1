@@ -1,3 +1,5 @@
+package Algorithims;
+
 public class Factorial {
     public static int Fact(int n){
         int fact = 1;
