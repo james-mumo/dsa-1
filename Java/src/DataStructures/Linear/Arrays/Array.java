@@ -1,4 +1,4 @@
-package DataStructures.Arrays;//continous in memory and same data types for all
+package DataStructures.Linear.Arrays;//continous in memory and same data types for all
 //elements
 
 

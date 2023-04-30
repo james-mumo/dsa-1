@@ -1,4 +1,4 @@
-package DataStructures.Stacks;
+package DataStructures.Linear.Stacks;
 
 import java.util.Iterator;
 import java.util.Stack;

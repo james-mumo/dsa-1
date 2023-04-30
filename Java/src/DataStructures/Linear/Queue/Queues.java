@@ -1,4 +1,4 @@
-package DataStructures.Queue;
+package DataStructures.Linear.Queue;
 
 public class Queues {
     int front, rear;
@@ -11,6 +11,8 @@ public class Queues {
     }
 
     void enqueue(int val) {
+
+        System.out.println("rear is " + rear);
         if (rear == Capacity) {
             System.out.println("Queue is full");
         } else {
@@ -20,6 +22,7 @@ public class Queues {
     }
 
     void deque() {
+        System.out.println("rear is " + rear);
         if (rear == 0) {
             System.out.println("Its empty nothing to delete");
         } else {
@@ -46,6 +49,7 @@ public class Queues {
             q.enqueue(8);
             q.enqueue(9);
             q.enqueue(10);
+//            q.enqueue(10);
 
             q.display();
 
@@ -54,6 +58,7 @@ public class Queues {
             q.display();
         }
     }
+
 
 }
 

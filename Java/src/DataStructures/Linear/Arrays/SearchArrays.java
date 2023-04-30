@@ -1,4 +1,4 @@
-package DataStructures.Arrays;
+package DataStructures.Linear.Arrays;
 
 public class SearchArrays {
 

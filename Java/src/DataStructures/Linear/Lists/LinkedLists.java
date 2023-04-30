@@ -1,6 +1,5 @@
-package DataStructures.Lists;
+package DataStructures.Linear.Lists;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 
 public class LinkedLists {
@@ -17,9 +16,9 @@ public class LinkedLists {
         ll.add(1, 3);
 
         //removing elements
-//        ll.remove();
-//        ll.removeFirst();
-//        ll.removeLast();
+        ll.remove();
+        ll.removeFirst();
+        ll.removeLast();
 
         for (Integer integer : ll) {
             System.out.print(integer + " ");
