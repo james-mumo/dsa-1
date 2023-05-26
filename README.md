@@ -5,7 +5,7 @@
 ### I Might Have Skipped The Following
 
 > > Graphs, DFS, BFS
->
+> > LinkedList solutions on cracking the code
 > >
 
 ### Have a look at the Queues
