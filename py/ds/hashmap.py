@@ -4,4 +4,6 @@
 
 # we have key value pair
 
-print("james")
+# we can use mmydict = dict() or {"key":"val"}
+
+# print mydict
