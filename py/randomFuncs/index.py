@@ -1,4 +1,4 @@
-def hellp():
-    return 8+9
+def greeting(name, greeting="Hello"):
+    return f"{greeting}, {name}"
 
-print(hellp())
+print(greeting("James", "Habari ya leo "))
