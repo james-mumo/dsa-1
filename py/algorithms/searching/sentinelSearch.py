@@ -9,13 +9,13 @@ def search(arr, target):
 
     arr[len(arr)-1] = last_element
 
-    if i < len(arr)-1 or arr[n-1]==target:
+    if i < len(arr)-1 or arr[len(arr)-1]==target:
         return i
     else:
         return -1
 
 
 arr = [3,53,4,33,4,5,66,7]
-target = 33
+target = 36
 
 print(search(arr, target))
