@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="680a957d-8dcf-48ea-b0ac-ebfa8e761874" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/py/algorithms/arrays/isArraySorted.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/algorithms/strings/countVowels.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/algorithms/linked-lists/reverseLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/algorithms/linked-lists/reverseLinkedList.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
