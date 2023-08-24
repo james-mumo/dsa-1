@@ -40,28 +40,40 @@ class LList:
         if self.head is None:
             print(f"{key} not found as List is empty!!!")
             return
-        current = self.head
-        while current:
-            if current.data == key:
-                return "True"
-            current = current.next
-        return "False"
+        else:
+            current = self.head
+            while(current):
+                if current.data == key:
+                    print(f"{key} was found")
+                    return True
+                current = current.next
 
+            return "False"
 
 
 
 ll = LList()
 ll.addStart(1)
-ll.addStart(2)
-ll.addEnd(3)
+ll.addStart(1)
 ll.addStart(1)
 ll.addStart(2)
 ll.addEnd(3)
-ll.addStart(1)
 ll.addStart(2)
 ll.addEnd(3)
-ll.addStart(1)
-ll.addStart(2)
 ll.addEnd(3)
 ll.display()
-print(ll.search(1))
+ll.search(1)
+
+
+key = 2
+the_head = ll.head
+items = []
+
+while(the_head):
+    items.append(the_head.data)
+    the_head = the_head.next
+#
+# if key in items:
+#     print(f"{key} was found")
+# else:
+#     print(f"{key} wasn't found")
