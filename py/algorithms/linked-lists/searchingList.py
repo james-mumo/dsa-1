@@ -42,7 +42,7 @@ class LList:
             return
         else:
             current = self.head
-            while current:
+            while(current):
                 if current.data == key:
                     print(f"{key} was found")
                     return True
