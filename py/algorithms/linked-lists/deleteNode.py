@@ -28,18 +28,12 @@ class Linkedlist:
                 curr = curr.next
             print()
 
-    def delStart(self):
-        if self.head is None:
-            print("Empty List")
-        else:
-            self.head = self.head.next
-
-    def endNode(self):
+    def delEnd(self):
         if self.head is None:
             print("Empty List")
         else:
             curr = self.head
-            prev = None;
+            prev = None
             while curr.next:
                 prev = curr
                 curr = curr.next
@@ -52,6 +46,21 @@ class Linkedlist:
         else:
             self.head = self.head.next
 
+    def delMid(self, target):
+        if self.head is None:
+            print("Empty List")
+            return
+        if self.head.data == target:
+            self.head = self.head.next
+        else:
+            curr = self.head
+            prev = None
+            while curr:
+                if curr.data == target:
+                    prev.next = curr.next
+                prev = curr
+                curr = curr.next
+            print("Item not found")
 
 
 ll = Linkedlist()
@@ -61,7 +70,9 @@ ll.addEnd(3)
 ll.addEnd(2)
 ll.addEnd(1)
 ll.displayNodes()
-ll.endNode()
+ll.delEnd()
 ll.displayNodes()
 ll.delStart()
+ll.displayNodes()
+ll.delMid(5)
 ll.displayNodes()
