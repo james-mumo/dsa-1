@@ -62,6 +62,26 @@ class Linkedlist:
                 curr = curr.next
             print("Item not found")
 
+    def delete_at_position(self, pos):
+        if pos < 0:
+            print("Invalid position")
+            return
+        elif self.head is None:
+            print("List is empty")
+            return
+        else:
+            curr = self.head
+            prev = None
+            count = 0
+            while curr and count < pos:
+                prev = curr
+                count += 1
+                curr = curr.next
+                if curr is None:
+                    
+            #         if we get to the end
+            prev.next = curr.next
+
 
 ll = Linkedlist()
 ll.addEnd(5)
@@ -70,9 +90,13 @@ ll.addEnd(3)
 ll.addEnd(2)
 ll.addEnd(1)
 ll.displayNodes()
+ll.delete_at_position(1)
+ll.displayNodes()
 ll.delEnd()
 ll.displayNodes()
 ll.delStart()
 ll.displayNodes()
 ll.delMid(5)
+ll.displayNodes()
+ll.delete_at_position(3)
 ll.displayNodes()
