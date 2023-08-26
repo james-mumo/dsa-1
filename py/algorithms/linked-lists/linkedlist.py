@@ -12,31 +12,57 @@ class LinkedList:
         newNode = Node(data)
 
         if self.head is None:
+            self.head = newNode
+        else:
             newNode.next = self.head
             self.head = newNode
 
-        else:
-            self.head.next = newNode
-
     def getCount(self):
-
         if self.head is None:
             return 0
-
         else:
-            current = self.head
             count = 0
-            while current:
+            curr = self.head
+            while curr:
                 count += 1
-                current = current.next
-                if current.next is self.head:
+                curr = curr.next
+                if curr == self.head:
                     break
             return count
+
+    def printList(self):
+        if self.head is None:
+            return
+        else:
+            curr = self.head
+            while curr:
+                print(curr.data, end="-->")
+                curr = curr.next
+                if curr == self.head:
+                    break
+            print()
+
+    def reverseList(self):
+        if self.head is None:
+            return
+        else:
+            prev = None
+            curr = self.head
+            while curr:
+                nxt = curr.next
+                curr.next = prev
+                prev = curr
+
 
 
 ll = LinkedList()
 ll.AddStart(1)
-ll.AddStart(1)
-ll.AddStart(1)
-ll.AddStart(1)
+ll.AddStart(2)
+ll.AddStart(3)
+ll.AddStart(4)
+ll.printList()
+print()
+ll.reverseList()
+ll.printList()
+print()
 print(ll.getCount())

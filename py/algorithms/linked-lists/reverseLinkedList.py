@@ -30,7 +30,6 @@ class LinkedList:
                 current = nextNode
             self.head = prev
 
-
     def display(self):
         if self.head is None:
             print("Empty")
