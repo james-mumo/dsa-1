@@ -24,10 +24,10 @@ class LinkedList:
             prev = None
             current = self.head
             while current:
-                next = current.next
+                nextNode = current.next
                 current.next = prev
                 prev = current
-                current = next
+                current = nextNode
             self.head = prev
 
 

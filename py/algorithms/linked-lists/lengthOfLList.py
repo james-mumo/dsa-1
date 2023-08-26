@@ -27,7 +27,7 @@ class LLists:
             return
         else:
             current = self.head
-            while (current):
+            while current:
                 if current.data == key:
                     print("Key found")
                     return True
