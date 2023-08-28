@@ -28,6 +28,7 @@ class BinaryTree:
 # Create a binary tree with a size of 7
 tree = BinaryTree(7)
 
+
 # Insert values into the binary tree
 values = [4, 2, 6, 1, 3, 5, 7]
 for value in values:
