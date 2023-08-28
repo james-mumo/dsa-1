@@ -35,4 +35,3 @@ for value in values:
 
 # Display the binary tree
 tree.display()
-
