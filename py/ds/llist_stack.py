@@ -11,4 +11,16 @@ class Stack:
     def isEmpty(self):
         return True if self.root is None else False
 
+    def push(self, data):
+        newNode = StackNode(data)
+        newNode.next = self.root
+        self.root = newNode
+        print(f" {data} has been pushed ")
 
+    def pop(self):
+        if self.isEmpty():
+            return float("-inf")
+        temp = self.root
+        self.root = self.root.next
+        popped = temp.data
+        return popped
