@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="680a957d-8dcf-48ea-b0ac-ebfa8e761874" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/py/ds/stack_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/ds/llist_stack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py/py_basics.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/py/py_basics.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/ds/stack_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/ds/stack_array.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
