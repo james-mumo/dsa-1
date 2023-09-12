@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="680a957d-8dcf-48ea-b0ac-ebfa8e761874" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/py/algorithms/arrays/2nd_largest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/ds/queue_by_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/ds/queue_from_queue.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py/ds/queue_collections_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/ds/queue_collections_queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/algorithms/arrays/zeroes_to_the_end.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/algorithms/arrays/zeroes_to_the_end.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
