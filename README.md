@@ -52,7 +52,7 @@
 
 ### Dynamic Programming:
 
-- Dynamic programming is a powerful technique for solving problems by breaking them down into smaller subproblems. The key is to store and reuse solutions to subproblems to avoid redundant computations.
+- Dynamic programming is a powerful technique for solving problems by breaking them down into smaller sub-problems. The key is to store and reuse solutions to subproblems to avoid redundant computations.
 
 ### Graph Algorithms:
 
@@ -63,10 +63,11 @@
 ---
 
 ## For Arrays and Strings
-### Greedy, bin search and 2 pointers, sliding windows, backtracking
+- Greedy, bin search and 2 pointers, sliding windows, backtracking
 
 ## Matrix, Trees and Priority Queues
-### BFS, DFS and Recussion
+- BFS, DFS and Recursion
 
-##
+## Graph, Linked-List and Stack
+-  Dynamic and monotonic stack and Union Find 
 
