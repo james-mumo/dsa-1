@@ -57,3 +57,16 @@
 ### Graph Algorithms:
 
 - Study Breadth-First Search (BFS) and Depth-First Search (DFS) for traversing graphs. Also, learn about Dijkstra's algorithm for finding the shortest path and Prim's/Kruskal's algorithms for minimum spanning trees.
+
+---
+
+---
+
+## For Arrays and Strings
+### Greedy, bin search and 2 pointers, sliding windows, backtracking
+
+## Matrix, Trees and Priority Queues
+### BFS, DFS and Recussion
+
+##
+
