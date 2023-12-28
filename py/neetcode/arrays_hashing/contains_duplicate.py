@@ -1,11 +1,13 @@
-nums = [2,2,3,4]
+nums = [2, 2, 3, 4]
 
-def dup(nums):
-    h_set =  set()
+
+def dups(nums):
+    hashset = set()
     for i in nums:
-        if i in h_set:
+        if i in hashset:
             return True
-        h_set.add(i)
+        hashset.add(i)
     return False
 
-print(dup(nums))
+
+print(dups(nums))
