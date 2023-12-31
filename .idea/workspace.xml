@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="680a957d-8dcf-48ea-b0ac-ebfa8e761874" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/py/neetcode/arrays_hashing/valid_anagram2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/neetcode/arrays_hashing/valid_anagram3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/neetcode/arrays_hashing/2Sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/neetcode/arrays_hashing/anagram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/neetcode/arrays_hashing/palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/neetcode/arrays_hashing/palindrome1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py/neetcode/arrays_hashing/valid_anagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/neetcode/arrays_hashing/valid_anagram.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
