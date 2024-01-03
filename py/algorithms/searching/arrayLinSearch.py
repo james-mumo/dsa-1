@@ -1,5 +1,5 @@
 
-# searcing an array in py
+# searching an array in py
 
 def search(ar, key):
     for i in ar:

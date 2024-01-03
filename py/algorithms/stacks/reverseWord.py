@@ -1,4 +1,4 @@
-# reverse the word "Too Many Nighst"
+# reverse the word "Too Many Nights"
 
 word = "Jungle Man"
 

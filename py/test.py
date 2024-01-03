@@ -1,20 +1,14 @@
-# for loop
-
-for i in range(33):
-    if i == 32:
-        break
-    # print(i)
-
-# linear time loop
-arr = [1, 2, 4, 5, 6, ]
-
-# for i in arr:
-# print(i)
+def TwoSum(nums, target):
+    visited = {}
+    for k, v in enumerate(nums):
+        diff = target - v
+        if diff in visited:
+            return [visited[diff], k]
+        visited[v] = k
+    return
 
 
-# nested Loop with n^2
-arr1 = [[1, 2, 3], [5, 5, 6]]
+nums = [2, 7, 11, 15]
+target = 9
 
-for i in range(len(arr1)):
-    for j in range(len(arr1[i])):
-        print(arr1[i][j])
+print(TwoSum(nums, target))

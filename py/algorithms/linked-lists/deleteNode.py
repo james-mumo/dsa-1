@@ -78,7 +78,7 @@ class Linkedlist:
                 count += 1
                 curr = curr.next
                 if curr is None:
-                    
+
             #         if we get to the end
             prev.next = curr.next
 

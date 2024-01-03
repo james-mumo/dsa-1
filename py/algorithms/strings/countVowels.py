@@ -1,5 +1,5 @@
-input = "geeksforgeeks portal"
-name = "james mumo"
+input = "forgetfulness portal"
+name = "James Mumo"
 
 
 # fun to chek vowel and keep count
@@ -16,5 +16,5 @@ def countVowels(word):
     return count
 
 
-print(countVowels(input))
+# print(countVowels(input))
 print(countVowels(name))
