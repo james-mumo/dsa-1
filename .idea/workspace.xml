@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="680a957d-8dcf-48ea-b0ac-ebfa8e761874" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py/algorithms/linked-lists/deleteNode.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/algorithms/linked-lists/deleteNode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py/algorithms/searching/arrayLinSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/algorithms/searching/arrayLinSearch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py/algorithms/searching/binarySearching.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/algorithms/searching/binarySearching.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py/algorithms/stacks/reverseWord.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/algorithms/stacks/reverseWord.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py/algorithms/strings/countVowels.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/algorithms/strings/countVowels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/neetcode/arrays_hashing/3Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/neetcode/arrays_hashing/3Sum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
